@@ -1,0 +1,5 @@
+# auto111-fixes
+Scripts and bugfixes for Automatic1111
+Should fix the error for Lora size not matching.
+
+Put files in stable-diffusion-webui-master\extensions-builtin\Lora
