@@ -2,4 +2,11 @@
 Scripts and bugfixes for Automatic1111
 Should fix the error for Lora size not matching.
 
+  Traceback (most recent call last):
+    File "H:\stable-diffusion-webui-1.4.0\extensions-builtin\Lora\lora.py", line 253, in load_loras
+      lora = load_lora(name, lora_on_disk)
+    File "H:\stable-diffusion-webui-1.4.0\extensions-builtin\Lora\lora.py", line 211, in load_lora
+      module.weight.copy_(weight)
+  RuntimeError: output with shape [64, 320] doesn't match the broadcast shape [64, 320, 64, 320]
+
 Put files in stable-diffusion-webui-master\extensions-builtin\Lora
